@@ -28,50 +28,33 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+scine = [rock, paper, scissors]
+if your_choice >= 3 or your_choice < 0:
+    print("Enter valid input")
+else:
+    print("Your choice: ")
+    print(scine[your_choice])
+    print("computer choice: ")
+    print(scine[computer_choice])
+    if your_choice == 0:
+        if computer_choice == 0:
+            print("Draw")
+        elif computer_choice == 1:
+            print("Computer Win")
+        elif computer_choice == 2:
+            print("You Win")
+    elif your_choice == 1:
+        if computer_choice == 0:
+            print("You Win")
+        elif computer_choice == 1:
+            print("Draw")
+        elif computer_choice == 2:
+            print("Computer Win")
+    elif your_choice == 2:
+        if computer_choice == 0:
+            print("Computer Win")
+        elif computer_choice == 1:
+            print("You Win")
+        elif computer_choice == 2:
+            print("Draw")
 
-
-if your_choice == 0:
-    print("Your Choice")
-    print(rock)
-    if computer_choice == 0:
-        print("Computer choice")
-        print(rock)
-        print("Draw")
-    elif computer_choice == 1:
-        print("Computer choice")
-        print(paper)
-        print("Computer Win")
-    elif computer_choice == 2:
-        print("Computer choice")
-        print(scissors)
-        print("You Win")
-elif your_choice == 1:
-    print("Your Choice")
-    print(paper)
-    if computer_choice == 0:
-        print("Computer choice")
-        print(rock)
-        print("You Win")
-    elif computer_choice == 1:
-        print("Computer choice")
-        print(paper)
-        print("Draw")
-    elif computer_choice == 2:
-        print("Computer choice")
-        print(scissors)
-        print("Computer Win")
-elif your_choice == 2:
-    print("Your Choice")
-    print(scissors)
-    if computer_choice == 0:
-        print("Computer choice")
-        print(rock)
-        print("Computer Win")
-    elif computer_choice == 1:
-        print("Computer choice")
-        print(paper)
-        print("You Win")
-    elif computer_choice == 2:
-        print("Computer choice")
-        print(scissors)
-        print("Draw")
