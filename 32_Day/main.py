@@ -4,8 +4,8 @@ import smtplib
 import random
 
 
-sender_email = "birthdaywishesbyrishabh@gmail.com"
-sender_password = "wikadsdstqoovdov"
+sender_email = ""
+sender_password = ""
 letter_list = [r"32_Day\letter_templates\letter_1.txt", r"32_Day\letter_templates\letter_2.txt", r"32_Day\letter_templates\letter_3.txt"]
 
 
